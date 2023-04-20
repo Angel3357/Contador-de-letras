@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<title>Contador</title>
+</head>
+<body>
+  <body background="fondo.jpg">
+    <header>
+        <h1>Contador</h1>
+        <h2>Introduce un texto, frese o palabra, y presiona el boton para saber cuantas letras contiene</h2>
+    </header>
+    <main>
+        <h2 id= "instructions">Escribe un texto, frase o palabra</h2>
+        <textarea type="text" name="word" id="word"></textarea>
+        <div id = "buttonWrapper">
+            <button id= "button" onclick = "countIt()">CONTAR</button>
+        </div>
+        <div id= "result"></div>
+    </main>
+</body>
+</html>
